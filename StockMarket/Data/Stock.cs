@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StockMarket.Data
 {
-    public class StockInfo
+    public class Stock
     {
         public string Code { get; set; }
         public string Name { get; set; }

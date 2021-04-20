@@ -7,12 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMarket", "StockMarket\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockTicker", "StockTicker\StockTicker.csproj", "{E9E6CB50-CD60-43CE-8747-338D6F55A49B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMarketClient", "StockMarketClient\StockMarketClient.csproj", "{36ED4B37-2514-409E-8B23-CAFEE1A59B87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMarketConsole", "StockMarketConsole\StockMarketConsole.csproj", "{36ED4B37-2514-409E-8B23-CAFEE1A59B87}"
 	ProjectSection(ProjectDependencies) = postProject
 		{493E5125-E5B3-43A4-8ADC-3CA28A15AB7F} = {493E5125-E5B3-43A4-8ADC-3CA28A15AB7F}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockTickerConsole", "StockTickerClient\StockTickerConsole.csproj", "{6CB7EE9D-F932-4E3D-9248-70F826E550C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockTickerConsole", "StockTickerConsole\StockTickerConsole.csproj", "{6CB7EE9D-F932-4E3D-9248-70F826E550C5}"
 	ProjectSection(ProjectDependencies) = postProject
 		{E9E6CB50-CD60-43CE-8747-338D6F55A49B} = {E9E6CB50-CD60-43CE-8747-338D6F55A49B}
 	EndProjectSection

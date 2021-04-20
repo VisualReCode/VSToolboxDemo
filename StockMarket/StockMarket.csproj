@@ -65,8 +65,8 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Data\StockInfo.cs" />
-    <Compile Include="Data\StockInfoData.cs" />
+    <Compile Include="Data\Stock.cs" />
+    <Compile Include="Data\StockData.cs" />
     <Compile Include="Data\StockPriceData.cs" />
     <Compile Include="StockInfo.cs" />
     <Compile Include="StockInfoService.svc.cs">

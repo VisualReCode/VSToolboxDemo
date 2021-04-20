@@ -9,7 +9,7 @@ namespace StockMarket
     {
         public IEnumerable<StockInfo> GetStocks()
         {
-            var data = new StockInfoData();
+            var data = new StockData();
             return data.GetAll().Select(d => new StockInfo
             {
                 Code = d.Code,

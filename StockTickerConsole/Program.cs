@@ -13,8 +13,8 @@ namespace StockTickerConsole
             await client.WatchAsync("MSFT");
             await client.WatchAsync("NFLX");
 
-            Console.WriteLine("Press Ctrl+C to exit...");
-            Console.ReadLine();
+            Console.WriteLine("Press Q to exit...");
+            while (Console.ReadKey().Key != ConsoleKey.Q) { }
         }
     }
 }
