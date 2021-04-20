@@ -1,7 +1,0 @@
-<VisualReCode>
-  <WcfToGrpc SourceSolution="StockMarket.sln" TargetSolution="..\ReCoded\StockMarketReCoded.sln" TargetFramework="net5.0">
-    <Services>
-      <Service ServiceContractProject="StockMarket\StockMarket.csproj" TargetProject="StockMarketCore" ServiceContract="StockMarket.IStockInfoService" GenerateClientProject="True" GenerateWcfProxyProject="False" Implementation="StockMarket.StockInfoService" ImplementationProject="StockMarket\StockMarket.csproj" TargetClientProject="StockMarket.Client" TargetWcfProxyProject="StockMarket.WcfProxy" />
-    </Services>
-  </WcfToGrpc>
-</VisualReCode>
