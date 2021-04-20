@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMarket", "StockMarket\StockMarket.csproj", "{493E5125-E5B3-43A4-8ADC-3CA28A15AB7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockTicker", "StockTicker\StockTicker.csproj", "{E9E6CB50-CD60-43CE-8747-338D6F55A49B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMarketClient", "StockMarketClient\StockMarketClient.csproj", "{36ED4B37-2514-409E-8B23-CAFEE1A59B87}"
+	ProjectSection(ProjectDependencies) = postProject
+		{493E5125-E5B3-43A4-8ADC-3CA28A15AB7F} = {493E5125-E5B3-43A4-8ADC-3CA28A15AB7F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockTickerConsole", "StockTickerClient\StockTickerConsole.csproj", "{6CB7EE9D-F932-4E3D-9248-70F826E550C5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E9E6CB50-CD60-43CE-8747-338D6F55A49B} = {E9E6CB50-CD60-43CE-8747-338D6F55A49B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockTicker.MarketLink", "StockTicker.MarketLink\StockTicker.MarketLink.csproj", "{205B1788-9FB4-4D03-ACA0-80C7F684D970}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{493E5125-E5B3-43A4-8ADC-3CA28A15AB7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{493E5125-E5B3-43A4-8ADC-3CA28A15AB7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{493E5125-E5B3-43A4-8ADC-3CA28A15AB7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{493E5125-E5B3-43A4-8ADC-3CA28A15AB7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9E6CB50-CD60-43CE-8747-338D6F55A49B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E6CB50-CD60-43CE-8747-338D6F55A49B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E6CB50-CD60-43CE-8747-338D6F55A49B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E6CB50-CD60-43CE-8747-338D6F55A49B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36ED4B37-2514-409E-8B23-CAFEE1A59B87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36ED4B37-2514-409E-8B23-CAFEE1A59B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36ED4B37-2514-409E-8B23-CAFEE1A59B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36ED4B37-2514-409E-8B23-CAFEE1A59B87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CB7EE9D-F932-4E3D-9248-70F826E550C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB7EE9D-F932-4E3D-9248-70F826E550C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB7EE9D-F932-4E3D-9248-70F826E550C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB7EE9D-F932-4E3D-9248-70F826E550C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{205B1788-9FB4-4D03-ACA0-80C7F684D970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{205B1788-9FB4-4D03-ACA0-80C7F684D970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{205B1788-9FB4-4D03-ACA0-80C7F684D970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{205B1788-9FB4-4D03-ACA0-80C7F684D970}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B78259E-A0AC-4EBD-8DD9-6F6751161480}
+	EndGlobalSection
+EndGlobal

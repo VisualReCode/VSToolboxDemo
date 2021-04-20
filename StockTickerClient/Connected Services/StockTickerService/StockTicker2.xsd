@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/StockTicker" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/StockTicker" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:7988/StockTicker.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System" />
+  <xs:complexType name="StockPriceUpdate">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Code" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Price" type="xs:decimal" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/System" minOccurs="0" name="Time" type="q1:DateTimeOffset" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="StockPriceUpdate" nillable="true" type="tns:StockPriceUpdate" />
+</xs:schema>

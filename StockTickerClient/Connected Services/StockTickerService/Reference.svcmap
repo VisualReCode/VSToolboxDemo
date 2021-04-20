@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="de895f40-b175-40a6-95e0-53c578bc49b8" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:7988/StockTicker.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="StockTicker.xsd" MetadataType="Schema" ID="6da845e3-58ec-48b0-83dc-be7d2713f6d1" SourceId="1" SourceUrl="http://localhost:7988/StockTicker.svc?xsd=xsd1" />
+    <MetadataFile FileName="StockTicker1.xsd" MetadataType="Schema" ID="214eab1a-3903-44cd-8076-ddf293ea2de9" SourceId="1" SourceUrl="http://localhost:7988/StockTicker.svc?xsd=xsd0" />
+    <MetadataFile FileName="StockTicker.disco" MetadataType="Disco" ID="2de943b4-bd6b-436d-93dc-75b435d728c8" SourceId="1" SourceUrl="http://localhost:7988/StockTicker.svc?disco" />
+    <MetadataFile FileName="StockTicker2.xsd" MetadataType="Schema" ID="4add026a-3130-46fc-9ac9-0f0b83c2ce5d" SourceId="1" SourceUrl="http://localhost:7988/StockTicker.svc?xsd=xsd2" />
+    <MetadataFile FileName="StockTicker.wsdl" MetadataType="Wsdl" ID="fe9b724b-7aef-432a-a834-ee53cfc21275" SourceId="1" SourceUrl="http://localhost:7988/StockTicker.svc?wsdl" />
+    <MetadataFile FileName="StockTicker1.wsdl" MetadataType="Wsdl" ID="272c376a-fb26-48b4-b41e-27ad302bb418" SourceId="1" SourceUrl="http://localhost:7988/StockTicker.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="StockTicker3.xsd" MetadataType="Schema" ID="13607f4e-738d-4828-9dda-cdfacbea4633" SourceId="1" SourceUrl="http://localhost:7988/StockTicker.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
