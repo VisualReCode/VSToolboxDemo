@@ -7,13 +7,13 @@ namespace StockMarket
 {
     public class StockInfoService : IStockInfoService
     {
-        public IEnumerable<StockInfo> GetStocks()
+        public IEnumerable<StockItem> GetStocks()
         {
             var data = new StockData();
-            return data.GetAll().Select(d => new StockInfo
+            return data.GetAll().Select(d => new StockItem
             {
                 Code = d.Code,
-                Name = d.Name,
+                Description = d.Description,
             });
         }
 

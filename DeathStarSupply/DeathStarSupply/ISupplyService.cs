@@ -5,16 +5,16 @@ using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
 
-namespace StockMarket
+namespace DeathStarSupply
 {
     [ServiceContract]
-    public interface IStockInfoService
+    public interface ISupplyService
     {
 
         [OperationContract]
-        IEnumerable<StockInfo> GetStocks();
+        IEnumerable<SupplyItem> GetSupplies();
 
         [OperationContract]
-        decimal GetPrice(string code, DateTimeOffset time);
+        DateTimeOffset OrderItem(string code, int quantity, DateTimeOffset requiredDate);
     }
 }
